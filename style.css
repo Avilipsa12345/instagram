@@ -1,0 +1,91 @@
+                      * {
+                          margin: 0;
+                          padding: 0;
+                          box-sizing: border-box;
+                          font-family: "Gilroury";
+                      }
+                      
+                      html,
+                      body {
+                          width: 100%;
+                          height: 100%;
+                      }
+                      
+                      #main {
+                          width: 100%;
+                          height: 100%;
+                          background-color: rgb(183, 125, 183);
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                      }
+                      
+                      #panel {
+                          height: 70%;
+                          width: 70%;
+                          background-color: white;
+                          border-radius: 10px;
+                          overflow: hidden;
+                      }
+                      
+                      #ptop {
+                          width: 100%;
+                          height: 100px;
+                          background-color: rgb(115, 41, 115);
+                          padding: 0px 30%;
+                          display: flex;
+                          align-items: center;
+                          justify-content: space-between;
+                          color: #fff;
+                      }
+                      
+                      .box {
+                          padding: 10px 20px;
+                          background-color: #fff;
+                          border-radius: 5px;
+                          font-weight: 700;
+                          font-size: 25px;
+                          color: rgb(158, 63, 158);
+                      }
+                      
+                      .elem {
+                          width: 10%;
+                          display: flex;
+                          align-items: center;
+                          gap: 15px;
+                          color: #000;
+                      }
+                      
+                      #pbtm {
+                          width: 100%;
+                          height: calc(100% - 100px);
+                          padding: 10px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          gap: 10px;
+                          flex-wrap: wrap;
+                      }
+                      
+                      .bubble {
+                          width: 60px;
+                          height: 60px;
+                          background-color: rgb(169, 101, 169);
+                          color: #ffff;
+                          border-radius: 50%;
+                          color: #000;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          font-weight: 600;
+                      }
+                      
+                      .elem h2 {
+                          font-weight: 600;
+                          font-size: 22px;
+                      }
+                      
+                      .bubble:hover {
+                          background-color: rgb(94, 15, 94);
+                          cursor: pointer;
+                      }
